@@ -13,22 +13,29 @@ const lineHeight = require("./lineHeight");
 const maxWidth = require("./maxWidth");
 const scale = require("./scale");
 
-module.exports = plugin.withOptions(function () {
-  return {
-    theme: {
-      screens,
-      colors,
-      spacing,
-      borderRadius,
-      borderWidth,
-      boxShadow,
-      fontFamily,
-      fontSize,
-      fontWeight,
-      letterSpacing,
-      lineHeight,
-      maxWidth,
-      scale,
-    },
-  };
-});
+module.exports = plugin.withOptions(
+  function () {
+    return function (options) {
+      const { addUtilities, addVariant, theme, e, prefix, variants } = options;
+    };
+  },
+  function (options = {}) {
+    return {
+      theme: {
+        screens,
+        colors,
+        spacing,
+        borderRadius,
+        borderWidth,
+        boxShadow,
+        fontFamily,
+        fontSize,
+        fontWeight,
+        letterSpacing,
+        lineHeight,
+        maxWidth,
+        scale,
+      },
+    };
+  }
+);
