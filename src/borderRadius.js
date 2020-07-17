@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   none: "var(--border-radius-none)",
   sm: "var(--border-radius-sm)",
   default: "var(--border-radius-default)",

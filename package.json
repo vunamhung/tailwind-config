@@ -1,6 +1,6 @@
 {
   "name": "@vunamhung/tailwind-config",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Tailwind CSS plugin to modify default config",
   "main": "src/index.js",
   "author": "Vu Nam Hung <benoit.rouleau@icloud.com>",

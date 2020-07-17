@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   hairline: "var(--font-weight-hairline)",
   thin: "var(--font-weight-thin)",
   light: "var(--font-weight-light)",

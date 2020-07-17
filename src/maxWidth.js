@@ -1,4 +1,4 @@
-export default (theme, { breakpoints }) => ({
+module.exports = (theme, { breakpoints }) => ({
   none: "none",
   xs: "var(--max-width-xs)",
   sm: "var(--max-width-sm)",

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   default: "var(--border-width-default, 1px)",
   "0": "var(--border-width-0, 0)",
   "2": "var(--border-width-2, 2px)",

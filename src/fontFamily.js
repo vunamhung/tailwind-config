@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   primary: "var(--family-primary)",
   secondary: "var(--family-secondary)",
   sans: [

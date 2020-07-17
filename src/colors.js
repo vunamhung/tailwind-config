@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   transparent: "var(--color-transparent)",
   current: "currentColor",
 

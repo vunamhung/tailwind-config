@@ -1,17 +1,17 @@
-import plugin from "tailwindcss/plugin";
-import spacing from "./spacing";
-import colors from "./colors";
-import screens from "./screens";
-import borderRadius from "./borderRadius";
-import borderWidth from "./borderWidth";
-import boxShadow from "./boxShadow";
-import fontFamily from "./fontFamily";
-import fontSize from "./fontSize";
-import fontWeight from "./fontWeight";
-import letterSpacing from "./letterSpacing";
-import lineHeight from "./lineHeight";
-import maxWidth from "./maxWidth";
-import scale from "./scale";
+const plugin = require("tailwindcss/plugin");
+const screens = require("./screens");
+const colors = require("./colors");
+const spacing = require("./spacing");
+const borderRadius = require("./borderRadius");
+const borderWidth = require("./borderWidth");
+const boxShadow = require("./boxShadow");
+const fontFamily = require("./fontFamily");
+const fontSize = require("./fontSize");
+const fontWeight = require("./fontWeight");
+const letterSpacing = require("./letterSpacing");
+const lineHeight = require("./lineHeight");
+const maxWidth = require("./maxWidth");
+const scale = require("./scale");
 
 module.exports = plugin.withOptions(function () {
   return {

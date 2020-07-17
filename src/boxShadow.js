@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   xs: "var(--box-shadow-xs)",
   sm: "var(--box-shadow-sm)",
   default: "var(--box-shadow-default)",

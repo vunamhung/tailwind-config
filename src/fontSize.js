@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   xs: "var(--font-size-xs)",
   sm: "var(--font-size-sm)",
   base: "var(--font-size-base)",

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   none: "var(--line-height-none)",
   tight: "var(--line-height-tight)",
   snug: "var(--line-height-snug)",

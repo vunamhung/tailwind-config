@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   tighter: "var(--letter-spacing-tighter)",
   tight: "var(--letter-spacing-tight)",
   normal: "var(--letter-spacing-normal)",

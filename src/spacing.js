@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   px: "var(--spacing-px)",
   "0": "var(--spacing-0)",
   "1": "var(--spacing-1)",

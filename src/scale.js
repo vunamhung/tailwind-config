@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "0": "var(--scale-0)",
   "50": "var(--scale-50)",
   "75": "var(--scale-75)",
