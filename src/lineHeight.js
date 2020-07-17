@@ -1,0 +1,16 @@
+export default {
+  none: "var(--line-height-none)",
+  tight: "var(--line-height-tight)",
+  snug: "var(--line-height-snug)",
+  normal: "var(--line-height-normal)",
+  relaxed: "var(--line-height-relaxed)",
+  loose: "var(--line-height-loose)",
+  "3": "var(--line-height-3)",
+  "4": "var(--line-height-4)",
+  "5": "var(--line-height-5)",
+  "6": "var(--line-height-6)",
+  "7": "var(--line-height-7)",
+  "8": "var(--line-height-8)",
+  "9": "var(--line-height-9)",
+  "10": "var(--line-height-10)",
+};

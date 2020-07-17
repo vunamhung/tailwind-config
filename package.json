@@ -1,0 +1,22 @@
+{
+  "name": "@vunamhung/tailwind-config",
+  "version": "0.9.0",
+  "description": "Tailwind CSS plugin to modify default config",
+  "main": "src/index.js",
+  "author": "Vu Nam Hung <benoit.rouleau@icloud.com>",
+  "repository": "https://github.com/vunamhung/tailwind-config.git",
+  "bugs": "https://github.com/vunamhung/tailwind-config/issues",
+  "homepage": "https://github.com/vunamhung/tailwind-config",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "release": "f(){ release-it $1 && github-release-from-changelog ;};f"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "github-release-from-changelog": "^2.1.0",
+    "release-it": "^12.4.3",
+    "tailwindcss": "^1.2.0"
+  }
+}
