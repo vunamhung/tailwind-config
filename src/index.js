@@ -1,5 +1,4 @@
 const plugin = require("tailwindcss/plugin");
-const screens = require("./screens");
 const colors = require("./colors");
 const spacing = require("./spacing");
 const borderRadius = require("./borderRadius");
@@ -22,7 +21,6 @@ module.exports = plugin.withOptions(
   function (options = {}) {
     return {
       theme: {
-        screens,
         colors,
         spacing,
         borderRadius,
