@@ -1,22 +1,7 @@
 module.exports = {
   primary: "var(--family-primary)",
   secondary: "var(--family-secondary)",
-  sans: [
-    "Inter",
-    "system-ui",
-    "-apple-system",
-    "BlinkMacSystemFont",
-    '"Segoe UI"',
-    "Roboto",
-    '"Helvetica Neue"',
-    "Arial",
-    '"Noto Sans"',
-    "sans-serif",
-    '"Apple Color Emoji"',
-    '"Segoe UI Emoji"',
-    '"Segoe UI Symbol"',
-    '"Noto Color Emoji"',
-  ],
+  sans: "var(--family-sans)",
   serif: ["Georgia", "Cambria", '"Times New Roman"', "Times", "serif"],
   mono: [
     "Menlo",
