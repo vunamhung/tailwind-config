@@ -6,7 +6,7 @@ module.exports = {
   white: "var(--color-white)",
 
   gray: {
-    "000": "var(--color-gray-000)",
+    50: "var(--color-gray-50)",
     100: "var(--color-gray-100)",
     200: "var(--color-gray-200)",
     300: "var(--color-gray-300)",
@@ -18,7 +18,7 @@ module.exports = {
     900: "var(--color-gray-900)",
   },
   primary: {
-    "000": "var(--color-primary-000)",
+    50: "var(--color-primary-50)",
     100: "var(--color-primary-100)",
     200: "var(--color-primary-200)",
     300: "var(--color-primary-300)",
@@ -30,7 +30,7 @@ module.exports = {
     900: "var(--color-primary-900)",
   },
   success: {
-    "000": "var(--color-success-000)",
+    50: "var(--color-success-50)",
     100: "var(--color-success-100)",
     200: "var(--color-success-200)",
     300: "var(--color-success-300)",
@@ -42,7 +42,7 @@ module.exports = {
     900: "var(--color-success-900)",
   },
   warning: {
-    "000": "var(--color-warning-000)",
+    50: "var(--color-warning-50)",
     100: "var(--color-warning-100)",
     200: "var(--color-warning-200)",
     300: "var(--color-warning-300)",
@@ -54,7 +54,7 @@ module.exports = {
     900: "var(--color-warning-900)",
   },
   danger: {
-    "000": "var(--color-danger-000)",
+    50: "var(--color-danger-50)",
     100: "var(--color-danger-100)",
     200: "var(--color-danger-200)",
     300: "var(--color-danger-300)",
@@ -66,7 +66,7 @@ module.exports = {
     900: "var(--color-danger-900)",
   },
   info: {
-    "000": "var(--color-info-000)",
+    50: "var(--color-info-50)",
     100: "var(--color-info-100)",
     200: "var(--color-info-200)",
     300: "var(--color-info-300)",
@@ -78,7 +78,7 @@ module.exports = {
     900: "var(--color-info-900)",
   },
   urge: {
-    "000": "var(--color-urge-000)",
+    50: "var(--color-urge-50)",
     100: "var(--color-urge-100)",
     200: "var(--color-urge-200)",
     300: "var(--color-urge-300)",

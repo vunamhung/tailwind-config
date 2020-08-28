@@ -2,7 +2,6 @@ const plugin = require("tailwindcss/plugin");
 const colors = require("./colors");
 const spacing = require("./spacing");
 const borderRadius = require("./borderRadius");
-const borderColor = require("./borderColor");
 const borderWidth = require("./borderWidth");
 const boxShadow = require("./boxShadow");
 const fontFamily = require("./fontFamily");
@@ -87,7 +86,6 @@ module.exports = plugin.withOptions(
         colors,
         spacing,
         borderRadius,
-        borderColor,
         borderWidth,
         boxShadow,
         fontFamily,
