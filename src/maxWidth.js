@@ -11,6 +11,8 @@ module.exports = (theme, { breakpoints }) => ({
   "5xl": "var(--max-width-5xl)",
   "6xl": "var(--max-width-6xl)",
   full: "100%",
+  "min-content": "min-content",
+  "max-content": "max-content",
   "1/2": "50%",
   "1/3": "33.333333%",
   "2/3": "66.666667%",

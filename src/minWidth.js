@@ -1,5 +1,7 @@
 module.exports = {
-  "0": "0",
+  "min-content": "min-content",
+  "max-content": "max-content",
+  0: "0",
   full: "100%",
   screen: "100vh",
   "1/4": "25%",
