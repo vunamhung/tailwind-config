@@ -1,9 +1,9 @@
 module.exports = {
-  transparent: "var(--color-transparent)",
+  transparent: "transparent",
   current: "currentColor",
 
-  black: "var(--color-black)",
-  white: "var(--color-white)",
+  black: "#000",
+  white: "#fff",
 
   gray: {
     50: "var(--color-gray-50)",
